@@ -3,7 +3,7 @@ import cv2, csv, os, time
 import mediapipe as mp
 import numpy as np
 
-LABEL = "Nice!"
+LABEL = "hello"
   # change per run or accept CLI arg
 OUT_DIR = "dataset_landmarks"
 os.makedirs(OUT_DIR, exist_ok=True)
